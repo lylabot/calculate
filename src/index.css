@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Monogrid35";
+  src: url("./fonts/Monogrid35-Regular.woff2") format("woff2");
+}
+
+html, body, #root {
+  height: 100%;
+}

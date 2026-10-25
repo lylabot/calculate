@@ -1,0 +1,16 @@
+import path from "path"
+
+import solid from 'vite-plugin-solid';
+import {defineConfig} from "vite"
+
+export default defineConfig({
+  plugins: [solid()],
+  build: {
+    outDir: 'docs',
+  },
+  resolve: {
+    alias: {
+      "~": path.resolve(__dirname, "./src")
+    }
+  }
+})

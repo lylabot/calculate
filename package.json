@@ -1,0 +1,31 @@
+{
+  "name": "lylabot-calculate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/schibsted-grotesk": "^5.3.0",
+    "@kobalte/core": "^0.13.14",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "nlcalclib": "github:lylabot/nlcalclib",
+    "solid-icons": "^1.2.0",
+    "solid-js": "^1.9.17",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vite-plugin-solid": "^2.11.14"
+  }
+}
